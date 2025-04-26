@@ -12,20 +12,51 @@
         background: #f5f5f5;
         padding: 1rem;
         border-radius: 8px;
-        word-break: break-all;
+        word-break: break-word;
         font-family: monospace;
+        margin-top: 1rem;
       }
     </style>
   </head>
   <body>
     <h2>🚘 Tesla Authorization Code</h2>
-    <p>Copy this code into your Jupyter notebook:</p>
+
+    <p>✅ Copy this code for your Python scripts:</p>
     <div class="code" id="auth-code">Loading...</div>
+
+    <p>🔄 Trying to send the code automatically to TeslaMate...</p>
+    <div id="status">Waiting...</div>
 
     <script>
       const params = new URLSearchParams(window.location.search);
       const code = params.get("code");
-      document.getElementById("auth-code").textContent = code || "No code found in URL.";
+      const authCodeElement = document.getElementById("auth-code");
+      const statusElement = document.getElementById("status");
+
+      if (code) {
+        authCodeElement.textContent = code;
+
+        fetch('http://127.0.0.1:4000/callback', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ code })
+        })
+        .then(response => {
+          if (response.ok) {
+            statusElement.textContent = "✅ Code sent successfully to TeslaMate!";
+          } else {
+            statusElement.textContent = "⚠️ Failed to send code to TeslaMate (but you can still copy it above)";
+          }
+        })
+        .catch(error => {
+          console.error(error);
+          statusElement.textContent = "⚠️ Error sending to TeslaMate (local server not reachable?)";
+        });
+
+      } else {
+        authCodeElement.textContent = "❌ No code found in URL.";
+        statusElement.textContent = "❌ No code available to send.";
+      }
     </script>
   </body>
 </html>
