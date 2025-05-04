@@ -1,0 +1,77 @@
+[
+  {
+    "id": "qst001",
+    "title": "Blue Lake Hike",
+    "description": "Explore the trails around Blue Lake and complete the activities!",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "assets/blue-lake.jpg"
+    ],
+    "activities": [
+      {
+        "id": "act001",
+        "type": "photo",
+        "prompt": "Take a selfie at the lake",
+        "icon": "icons/selfie.png",
+        "order": 1
+      },
+      {
+        "id": "act002",
+        "type": "checkbox",
+        "prompt": "Spot some ants",
+        "icon": "icons/ant.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T15:30:00Z",
+    "updatedAt": "2025-05-04T15:30:00Z"
+  },
+  {
+    "id": "qst002",
+    "title": "Museum Mystery",
+    "description": "Discover hidden treasures at the local museum.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "assets/museum.jpg"
+    ],
+    "activities": [
+      {
+        "id": "act003",
+        "type": "checkbox",
+        "prompt": "Find the oldest painting",
+        "icon": "icons/painting.png",
+        "order": 1
+      },
+      {
+        "id": "act004",
+        "type": "text",
+        "prompt": "Write down the name of your favorite exhibit",
+        "icon": "icons/notebook.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T15:35:00Z",
+    "updatedAt": "2025-05-04T15:35:00Z"
+  },
+  {
+    "id": "qst_local_23",
+    "title": "Backyard Safari",
+    "description": "Explore your backyard as if it were a jungle!",
+    "createdBy": "User_231",
+    "status": "draft",
+    "images": [],
+    "activities": [
+      {
+        "id": "act005",
+        "type": "location",
+        "prompt": "Stand under the biggest tree",
+        "icon": "icons/tree.png",
+        "order": 1
+      }
+    ],
+    "createdAt": "2025-05-04T15:40:00Z",
+    "updatedAt": "2025-05-04T15:40:00Z"
+  }
+]
