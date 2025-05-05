@@ -6,21 +6,21 @@
     "createdBy": "system",
     "status": "published",
     "images": [
-      "assets/blue-lake.jpg"
+      "https://images.unsplash.com/photo-1605433247340-0d30e86b5a61"
     ],
     "activities": [
       {
         "id": "act001",
         "type": "photo",
         "prompt": "Take a selfie at the lake",
-        "icon": "icons/selfie.png",
+        "icon": "https://img.icons8.com/color/96/selfie.png",
         "order": 1
       },
       {
         "id": "act002",
         "type": "checkbox",
         "prompt": "Spot some ants",
-        "icon": "icons/ant.png",
+        "icon": "https://img.icons8.com/color/96/ant.png",
         "order": 2
       }
     ],
@@ -34,21 +34,21 @@
     "createdBy": "system",
     "status": "published",
     "images": [
-      "assets/museum.jpg"
+      "https://images.unsplash.com/photo-1585325701954-1ff0e5e1af46"
     ],
     "activities": [
       {
         "id": "act003",
         "type": "checkbox",
         "prompt": "Find the oldest painting",
-        "icon": "icons/painting.png",
+        "icon": "https://img.icons8.com/color/96/portrait.png",
         "order": 1
       },
       {
         "id": "act004",
         "type": "text",
         "prompt": "Write down the name of your favorite exhibit",
-        "icon": "icons/notebook.png",
+        "icon": "https://img.icons8.com/color/96/notepad.png",
         "order": 2
       }
     ],
@@ -61,17 +61,75 @@
     "description": "Explore your backyard as if it were a jungle!",
     "createdBy": "User_231",
     "status": "draft",
-    "images": [],
+    "images": [
+      "https://images.unsplash.com/photo-1587329310686-6201c94f7b3b"
+    ],
     "activities": [
       {
         "id": "act005",
         "type": "location",
         "prompt": "Stand under the biggest tree",
-        "icon": "icons/tree.png",
+        "icon": "https://img.icons8.com/color/96/tree.png",
         "order": 1
       }
     ],
     "createdAt": "2025-05-04T15:40:00Z",
     "updatedAt": "2025-05-04T15:40:00Z"
+  },
+  {
+    "id": "qst003",
+    "title": "Bug Hunt!",
+    "description": "Search for six-legged critters in your neighborhood.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "https://images.unsplash.com/photo-1574852479943-d1dbd8d41237"
+    ],
+    "activities": [
+      {
+        "id": "act006",
+        "type": "checkbox",
+        "prompt": "Find a beetle",
+        "icon": "https://img.icons8.com/color/96/beetle.png",
+        "order": 1
+      },
+      {
+        "id": "act007",
+        "type": "photo",
+        "prompt": "Take a picture of a butterfly",
+        "icon": "https://img.icons8.com/color/96/butterfly.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T15:45:00Z",
+    "updatedAt": "2025-05-04T15:45:00Z"
+  },
+  {
+    "id": "qst004",
+    "title": "Stargazing Night",
+    "description": "Learn about constellations and observe the night sky.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "https://images.unsplash.com/photo-1507413245164-6160d8298b31"
+    ],
+    "activities": [
+      {
+        "id": "act008",
+        "type": "checkbox",
+        "prompt": "Find the Big Dipper",
+        "icon": "https://img.icons8.com/color/96/constellation.png",
+        "order": 1
+      },
+      {
+        "id": "act009",
+        "type": "text",
+        "prompt": "Write a wish upon a star",
+        "icon": "https://img.icons8.com/color/96/star.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T15:50:00Z",
+    "updatedAt": "2025-05-04T15:50:00Z"
   }
 ]
