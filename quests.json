@@ -131,5 +131,117 @@
     ],
     "createdAt": "2025-05-04T16:15:00Z",
     "updatedAt": "2025-05-04T16:15:00Z"
+  },
+  {
+    "id": "qst006",
+    "title": "Shark Tooth Hunt at Caspersen Beach",
+    "description": "Search for prehistoric shark teeth and observe local wildlife on the shore.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "https://www.mustdo.com/wp-content/uploads/2018/03/Caspersen-Beach-Venice-Florida.jpg"
+    ],
+    "activities": [
+      {
+        "id": "act010",
+        "type": "photo",
+        "prompt": "Take a picture of the shark teeth you find.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/camera.png",
+        "order": 1
+      },
+      {
+        "id": "act011",
+        "type": "checkbox",
+        "prompt": "Spot a pelican flying over the water.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/bird.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T17:00:00Z",
+    "updatedAt": "2025-05-04T17:00:00Z"
+  },
+  {
+    "id": "qst007",
+    "title": "Nature Walk at Venetian Waterway Park",
+    "description": "Walk or bike along the scenic trails beside the Intracoastal Waterway.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Venetian_Waterway_Park_entrance.JPG"
+    ],
+    "activities": [
+      {
+        "id": "act012",
+        "type": "location",
+        "prompt": "Walk to the trailhead near the Venice Avenue Bridge.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/marker.png",
+        "order": 1
+      },
+      {
+        "id": "act013",
+        "type": "checkbox",
+        "prompt": "Identify three different types of birds along the trail.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/bird.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T17:05:00Z",
+    "updatedAt": "2025-05-04T17:05:00Z"
+  },
+  {
+    "id": "qst008",
+    "title": "Historic Downtown Venice Exploration",
+    "description": "Discover the charming streets and Italian-style architecture of downtown Venice.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "https://www.mustdo.com/wp-content/uploads/2018/03/Downtown-Venice-Florida.jpg"
+    ],
+    "activities": [
+      {
+        "id": "act014",
+        "type": "photo",
+        "prompt": "Take a selfie in front of the Venice Theatre.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/theatre-mask.png",
+        "order": 1
+      },
+      {
+        "id": "act015",
+        "type": "text",
+        "prompt": "Write down the name of your favorite shop or café.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/notebook.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T17:10:00Z",
+    "updatedAt": "2025-05-04T17:10:00Z"
+  },
+  {
+    "id": "qst009",
+    "title": "Turtle Nesting at Venice Beach",
+    "description": "Visit the beach during turtle nesting season and learn about marine conservation.",
+    "createdBy": "system",
+    "status": "published",
+    "images": [
+      "https://www.visitsarasota.com/sites/default/files/styles/hero/public/2019-01/Venice%20Beach%20-%20Sarasota%20County%20Parks%20and%20Recreation.jpg"
+    ],
+    "activities": [
+      {
+        "id": "act016",
+        "type": "checkbox",
+        "prompt": "Spot a marked turtle nest on the beach.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/turtle.png",
+        "order": 1
+      },
+      {
+        "id": "act017",
+        "type": "photo",
+        "prompt": "Capture a picture of the sunset over the Gulf.",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/sunset.png",
+        "order": 2
+      }
+    ],
+    "createdAt": "2025-05-04T17:15:00Z",
+    "updatedAt": "2025-05-04T17:15:00Z"
   }
 ]
