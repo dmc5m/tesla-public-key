@@ -1,138 +1,5 @@
 [
   {
-    "id": "qst001",
-    "title": "Blue Lake Hike",
-    "description": "Explore the trails around Blue Lake and complete the activities!",
-    "createdBy": "system",
-    "status": "published",
-    "images": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    ],
-    "activities": [
-      {
-        "id": "act001",
-        "type": "photo",
-        "prompt": "Take a selfie at the lake",
-        "icon": "https://img.icons8.com/ios-filled/50/000000/camera.png",
-        "order": 1
-      },
-      {
-        "id": "act002",
-        "type": "checkbox",
-        "prompt": "Spot some ants",
-        "icon": "https://img.icons8.com/emoji/48/ant.png",
-        "order": 2
-      }
-    ],
-    "createdAt": "2025-05-04T15:30:00Z",
-    "updatedAt": "2025-05-04T15:30:00Z"
-  },
-  {
-    "id": "qst002",
-    "title": "Museum Mystery",
-    "description": "Discover hidden treasures at the local museum.",
-    "createdBy": "system",
-    "status": "published",
-    "images": [
-      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80"
-    ],
-    "activities": [
-      {
-        "id": "act003",
-        "type": "checkbox",
-        "prompt": "Find the oldest painting",
-        "icon": "https://img.icons8.com/ios-filled/50/000000/painting.png",
-        "order": 1
-      },
-      {
-        "id": "act004",
-        "type": "text",
-        "prompt": "Write down the name of your favorite exhibit",
-        "icon": "https://img.icons8.com/ios-filled/50/000000/notebook.png",
-        "order": 2
-      }
-    ],
-    "createdAt": "2025-05-04T15:35:00Z",
-    "updatedAt": "2025-05-04T15:35:00Z"
-  },
-  {
-    "id": "qst003",
-    "title": "Backyard Safari",
-    "description": "Explore your backyard as if it were a jungle!",
-    "createdBy": "User_231",
-    "status": "draft",
-    "images": [
-      "https://images.unsplash.com/photo-1617657684050-8cb6fa06ad6c?auto=format&fit=crop&w=800&q=80"
-    ],
-    "activities": [
-      {
-        "id": "act005",
-        "type": "location",
-        "prompt": "Stand under the biggest tree",
-        "icon": "https://img.icons8.com/emoji/48/deciduous-tree.png",
-        "order": 1
-      }
-    ],
-    "createdAt": "2025-05-04T15:40:00Z",
-    "updatedAt": "2025-05-04T15:40:00Z"
-  },
-  {
-    "id": "qst004",
-    "title": "Stargazing Night",
-    "description": "Look up and explore the wonders of the night sky.",
-    "createdBy": "system",
-    "status": "published",
-    "images": [
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
-    ],
-    "activities": [
-      {
-        "id": "act006",
-        "type": "checkbox",
-        "prompt": "Spot the Big Dipper",
-        "icon": "https://img.icons8.com/ios-filled/50/star.png",
-        "order": 1
-      },
-      {
-        "id": "act007",
-        "type": "text",
-        "prompt": "Write down what you wonder about space",
-        "icon": "https://img.icons8.com/ios-filled/50/thought-bubble.png",
-        "order": 2
-      }
-    ],
-    "createdAt": "2025-05-04T16:00:00Z",
-    "updatedAt": "2025-05-04T16:00:00Z"
-  },
-  {
-    "id": "qst005",
-    "title": "Park Clean-Up Quest",
-    "description": "Help your local park stay clean and beautiful!",
-    "createdBy": "User_112",
-    "status": "published",
-    "images": [
-      "https://images.unsplash.com/photo-1558980664-10c236ca4a9c?auto=format&fit=crop&w=800&q=80"
-    ],
-    "activities": [
-      {
-        "id": "act008",
-        "type": "photo",
-        "prompt": "Take a picture of the trash you collected",
-        "icon": "https://img.icons8.com/ios-filled/50/trash.png",
-        "order": 1
-      },
-      {
-        "id": "act009",
-        "type": "checkbox",
-        "prompt": "Recycle at least one item",
-        "icon": "https://img.icons8.com/ios-filled/50/recycle.png",
-        "order": 2
-      }
-    ],
-    "createdAt": "2025-05-04T16:15:00Z",
-    "updatedAt": "2025-05-04T16:15:00Z"
-  },
-  {
     "id": "qst006",
     "title": "Shark Tooth Hunt at Caspersen Beach",
     "description": "Search for prehistoric shark teeth and observe local wildlife on the shore.",
@@ -167,7 +34,7 @@
     "createdBy": "system",
     "status": "published",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Venetian_Waterway_Park_entrance.JPG"
+      "https://www.alamy.com/venetian-waterway-park-bike-trail-along-the-gulf-intercoastal-waterway-in-venice-florida-in-the-united-states-image362650810.html"
     ],
     "activities": [
       {
@@ -195,7 +62,7 @@
     "createdBy": "system",
     "status": "published",
     "images": [
-      "https://www.mustdo.com/wp-content/uploads/2018/03/Downtown-Venice-Florida.jpg"
+      "https://www.visitvenicefl.org/wp-content/uploads/2018/03/Downtown-Venice-Florida.jpg"
     ],
     "activities": [
       {
@@ -223,7 +90,7 @@
     "createdBy": "system",
     "status": "published",
     "images": [
-      "https://www.visitsarasota.com/sites/default/files/styles/hero/public/2019-01/Venice%20Beach%20-%20Sarasota%20County%20Parks%20and%20Recreation.jpg"
+      "https://www.fox13news.com/news/first-local-sea-turtle-nest-of-the-season-marked-on-venice-beach"
     ],
     "activities": [
       {
